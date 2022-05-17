@@ -3,7 +3,7 @@ import ItemCount from '../ItemCount';
 import "./Item.css";
 
 const Item = ({item}) => {
-    const {nombre,imagen,precio,stock,initial,state } = item;
+    const {nombre,precio,stock,initial,state } = item;
 return (
     <div className="item">
         <div className="card" style={{ width: '18rem' }}>
